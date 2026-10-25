@@ -11,7 +11,10 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://signatoro.com/mcp"
+      "url": "https://signatoro.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
     }
   ]
 }
